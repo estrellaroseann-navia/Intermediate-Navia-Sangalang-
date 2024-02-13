@@ -1,1 +1,1 @@
-Estrella Rose Ann Navia and John Dexter Sangalang
+Estrella Rose Ann Navia and John Dexter Sangalang partnership
