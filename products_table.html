@@ -4,14 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Information</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f7f7f7;
+          color: #333;
+        }
+
+        h1 {
+          text-align: center;
+          margin-top: 20px;
+          color: #e88989;
+        }
+
+        table {
+          width: 80%;
+          margin: 0 auto;
+          border-collapse: collapse;
+          border: 1px solid #ccc;
+          background-color: #fff;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+          border: 1px solid #ccc;
+          padding: 10px;
+          text-align: center;
+        }
+
+        th {
+          background-color: #e88989c6;
+        }
+
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+
+        tr:hover {
+          background-color: #df878791;
+        }
+
+        .available {
+          color: green;
+        }
+
+        .not-available {
+          color: red;
+        }
+
+        .btn {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+
+        .btn:hover {
+          background-color: #45a049;
+          color: white;
+        }
+      </style>
 </head>
 <body>
     <h1>Organic Flowers</h1>
 
-    <table id="flowers_table">
+    <table id="flowers-table">
         <tr>
           <th>Product Name</th>
-          <th>Price per stem(PHP)</th>
+          <th>Price per stem (PHP)</th>
           <th>Availability</th>
         </tr>
         <tr>
