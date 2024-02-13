@@ -1,1 +1,2 @@
-# Intermediate-Navia-Sangalang-
+Estrella Rose Ann Navia
+John Dexter Sangalang
